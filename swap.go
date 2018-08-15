@@ -1,13 +1,11 @@
-package main
+package main()
 
 import "fmt"
 
-func swap(x,y string) (string,string){
-  return y,x
+func swap(x,y string) (string,string) {
+      return y,x
 }
 
-func main(){
-   a,b := swap("Hello","World") /* don't use same characters in func and main*/
-   fmt.Println(a,b)
-
+func main() {
+   a,b := ("Hello","World")
 }
