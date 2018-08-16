@@ -10,7 +10,9 @@ return
 
 }
 
-func main(){
+func main()
+
+{
 
 fmt.Println(split(21))
 
